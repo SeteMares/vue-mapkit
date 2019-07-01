@@ -1,6 +1,6 @@
 {
   "name": "vue-mapkit",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A Vue library for Apple Mapkit",
   "main": "dist/vue-mapkit.min.js",
   "scripts": {
@@ -33,7 +33,5 @@
     "url": "https://github.com/SeteMares/vue-mapkit/issues"
   },
   "homepage": "https://github.com/SeteMares/vue-mapkit#readme",
-  "dependencies": {
-    "webpack": "^4.35.2"
-  }
+  "dependencies": {}
 }
