@@ -4,7 +4,7 @@
   "description": "A Vue library for Apple Mapkit",
   "main": "dist/vue-mapkit.min.js",
   "scripts": {
-    "build": "browserify src/index.js --s aizu -t babelify -o dist/vue-mapkit.min.js",
+    "build": "browserify src/index.js -t babelify -o dist/vue-mapkit.min.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
