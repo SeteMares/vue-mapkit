@@ -19,7 +19,7 @@ npm install vue-mapkit --save
 
 Please follow the official [MapkitJS documentation](https://developer.apple.com/maps/web/) to setup your API credentials.
 
-```js
+```vue
 <script>
 import Vue from 'vue'
 import VueMapkit from 'vue-mapkit'
@@ -32,14 +32,15 @@ Vue.use(VueMapkit, {
     // you can use options from mapkit documentation as well
     language: 'ja',
 })
-
+</script>
 ```
 
 #### Draw a map
 
 Now you can draw a map in a component.
 
-```js
+```vue
+<script>
 import { createMapkit } from 'vue-mapkit'
 
 export default {
