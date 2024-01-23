@@ -1,20 +1,9 @@
 {
   "name": "vue-mapkit",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A Vue library for Apple Mapkit",
-  "main": "dist/vue-mapkit.min.js",
-  "scripts": {
-    "build": "browserify src/index.js -s vue-mapkit -t babelify -o dist/vue-mapkit.min.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.3.4",
-    "@babel/preset-env": "^7.4.3",
-    "babel-preset-minify": "^0.5.0",
-    "babelify": "^10.0.0",
-    "browserify": "^16.2.2",
-    "node-static": "^0.7.11"
-  },
+  "type": "module",
+  "module": "src/index.js",
   "engines": {
     "node": ">= 4.0.0",
     "npm": ">= 3.0.0"
@@ -32,6 +21,5 @@
   "bugs": {
     "url": "https://github.com/SeteMares/vue-mapkit/issues"
   },
-  "homepage": "https://github.com/SeteMares/vue-mapkit#readme",
-  "dependencies": {}
+  "homepage": "https://github.com/SeteMares/vue-mapkit#readme"
 }
